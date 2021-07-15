@@ -1,0 +1,18 @@
+.listTodo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 24px;
+    padding: 6px;
+}
+
+.listTodo:hover {
+    background: #ff9797;
+    border-radius: 10px;
+    
+}
+
+.close {
+    color:  gray;
+    text-decoration: line-through;
+}
