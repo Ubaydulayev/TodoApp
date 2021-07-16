@@ -10,11 +10,12 @@ function AddTodo ({todo, setTodo}) {
     function saveTodo() {
         setTodo(
             [...todo, {
-                id: 22,
+                id: [todo],
                 title: value,
                 status: true
             }]
         )
+
         setValue("")
     }
     return (
